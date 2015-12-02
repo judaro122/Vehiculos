@@ -8,7 +8,7 @@ public class Vehiculo {
     private int x;
     private int y;
     private Mapa mapa;
-
+    private int iDimagen;
 
 
     public Vehiculo(int x, Mapa mapa, int y) {
@@ -47,6 +47,13 @@ public class Vehiculo {
         this.mapa = mapa;
     }
 
+    public int getiDimagen() {
+        return iDimagen;
+    }
+
+    public void setiDimagen(int iDimagen) {
+        this.iDimagen = iDimagen;
+    }
 
     @Override
     public String toString() {

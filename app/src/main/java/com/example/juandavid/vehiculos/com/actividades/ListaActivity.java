@@ -51,7 +51,7 @@ public class ListaActivity extends Activity {
 
 
 
-    private Mapa inicializarMapa() {
+    protected Mapa inicializarMapa() {
         Mapa miMaptest = new Mapa();
 
         Vehiculo miavion = new Avion(miMaptest);

@@ -6,4 +6,6 @@
     <string name="title_activity_lista">ListaActivity</string>
     <string name="movervehiculos">Mover Vehiculos</string>
     <string name="vervehiculos">Ver Vehiculos</string>
+    <string name="verlistacompleja">Ver Lista compleja</string>
+    <string name="title_activity_listacompuesta">ListacompuestaActivity</string>
 </resources>
