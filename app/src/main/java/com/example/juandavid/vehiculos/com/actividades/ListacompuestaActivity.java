@@ -29,7 +29,7 @@ public class ListacompuestaActivity extends ListaActivity {
         actualizarlistado(miMapa.getmVehiculos());
     }
 
-    private void actualizarlistado(ArrayList<Vehiculo> vehiculos) {
+    protected void actualizarlistado(ArrayList<Vehiculo> vehiculos) {
 
 
         VehiculosAdapter adapter = new VehiculosAdapter(vehiculos,this);

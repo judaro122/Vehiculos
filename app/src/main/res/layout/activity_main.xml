@@ -22,4 +22,22 @@
         android:onClick="onclicverlistacompleja"
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver mapa"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:onClick="onclicvermapa" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver Lista ws"
+        android:id="@+id/button5"
+        android:onClick="onclicverlistws"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

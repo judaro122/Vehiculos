@@ -8,4 +8,6 @@
     <string name="vervehiculos">Ver Vehiculos</string>
     <string name="verlistacompleja">Ver Lista compleja</string>
     <string name="title_activity_listacompuesta">ListacompuestaActivity</string>
+    <string name="title_activity_wslista">WslistaActivity</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

@@ -1,5 +1,8 @@
 package com.example.juandavid.vehiculos.com.vehiculos.model;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 /**
  * Created by JuanDavid on 20/11/2015.
  */
@@ -21,6 +24,12 @@ public class Vehiculo {
         this.mapa = mapa;
         this.x = 0;
         this.y = 0;
+    }
+
+    public Vehiculo(JSONObject objectJSON) throws JSONException {
+
+        this.setX(objectJSON.getInt("x"));
+        this.setY(objectJSON.getInt("y"));
     }
 
     public int getX() {

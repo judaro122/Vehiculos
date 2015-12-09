@@ -22,9 +22,13 @@ public class Mapa {
     }
 
     public Mapa() {
-        this.maxX = 100;
-        this.maxY = 100;
-        this.mVehiculos = new ArrayList<>();
+       this(100,100);
+
+    }
+
+    public Mapa(ArrayList<Vehiculo> mVehiculos) {
+       this();
+        this.mVehiculos = mVehiculos;
     }
 
     /**

@@ -7,6 +7,8 @@ import android.view.View;
 
 import com.example.juandavid.vehiculos.com.actividades.ListaActivity;
 import com.example.juandavid.vehiculos.com.actividades.ListacompuestaActivity;
+import com.example.juandavid.vehiculos.com.actividades.MapsActivity;
+import com.example.juandavid.vehiculos.com.actividades.WslistaActivity;
 
 public class MainActivity extends Activity {
 
@@ -27,6 +29,20 @@ public class MainActivity extends Activity {
     public void onclicverlistacompleja(View v){
 
         Intent  intent = new Intent(this, ListacompuestaActivity.class);
+
+        startActivity(intent);
+    }
+
+    public void onclicvermapa(View v){
+
+        Intent  intent = new Intent(this, MapsActivity.class);
+
+        startActivity(intent);
+    }
+
+    public void onclicverlistws(View v){
+
+        Intent  intent = new Intent(this, WslistaActivity.class);
 
         startActivity(intent);
     }
